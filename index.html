@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Snake Information</title>
+	<style>
+		.tracking-in-expand-fwd {
+	-webkit-animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+@-webkit-keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+            transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+            transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+		.heading{
+			color: white;
+			text-align: center;
+			font-family:Arial black;
+			text-shadow: 1px 2px 10px yellow;
+			font-size: 80px;
+			-webkit-text-stroke:5px green;
+			text-decoration: none;
+		}
+		.Headlines{
+			font-family: arial black;
+			font-size: 20px;
+			color: black;
+			text-decoration: none;
+		}
+		.Headlines:hover{
+			color: blue;
+			text-decoration: underline;
+		}
+		.snake-name{
+			text-decoration: none;
+			font-size: 25px;
+			color: black;
+		}
+		.snake-name:hover{
+			color: blueviolet;
+			text-decoration: underline;
+		}
+		.veno{
+			color: red;
+		}
+		.non-veno{
+			color: green;
+		}
+
+
+	</style>
+</head>
+<body>
+		<div>
+			<h1 class="heading tracking-in-expand-fwd">&#128013;Snake Information&#128013;</h1>
+			<marquee direction="right"><img src="https://media1.giphy.com/media/5fwoTYsw2D6yFI5X9x/giphy.gif?cid=6c09b952cbnzubsyo109wu28py82zk992k1ns5ce6uuiaq79&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s" height="100px"></marquee>
+
+			<ul type="none"><a href="https://images.app.goo.gl/bhb5iBPbExYFuLWD9"target="blank" class="Headlines veno"><h1>Venomous Snakes</h1></a>
+				<li>&#128013;
+					<a href="https://en.wikipedia.org/wiki/Indian_cobra" target="blank" class="snake-name">Indian Spectacled Cobra</a>
+				</li>
+
+				<li>&#128013;
+					<a href="https://en.wikipedia.org/wiki/Common_krait" target="blank" class="snake-name">Common krait</a>
+					
+				</li>
+
+				<li>&#128013;
+					<a href="https://en.wikipedia.org/wiki/Russell%27s_viper" target="blank" class="snake-name">Russell Viper</a>
+
+				</li>
+				<li>&#128013;
+					<a href="https://en.wikipedia.org/wiki/Echis" target="blank" class="snake-name">Saw Scaled Viper</a>
+					
+				</li>
+
+				<li>&#128013;
+					<a href="https://en.wikipedia.org/wiki/Craspedocephalus_gramineus" target="blank" class="snake-name">Bamboo Pit Viper</a>
+				</li>
+			</ul>
+
+			<ul type="none"><a href="https://images.app.goo.gl/8853d5ituDiVAYkm6" target="blank" class="Headlines non-veno">
+				<h1>Non-Venomous Snakes</h1></a>
+				<li>&#128013;
+					<a href="https://en.wikipedia.org/wiki/Rat_snake" target="blank" class="snake-name">Rat Snake</a>
+				</li>
+				<li>&#128013;
+					<a href="https://en.wikipedia.org/wiki/Indian_python" target="blank" class="snake-name">Indian Python</a>
+				</li>
+				<li>&#128013;
+					<a href="https://en.wikipedia.org/wiki/Trinket_snake" target="blank" class="snake-name">Trinket Snake</a>
+				</li>
+				<li>&#128013;
+					<a href="https://en.wikipedia.org/wiki/Erycinae" target="blank" class="snake-name">Sand Boa</a>
+				</li>
+				<li>&#128013;
+					<a href="https://en.wikipedia.org/wiki/Oligodon" target="blank" class="snake-name">Kukari</a>
+				</li>
+			</ul>
+
+
+
+
+		</div>
+</body>
+</html>
